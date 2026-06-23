@@ -1,0 +1,28 @@
+{
+  "name": "namastefood",
+  "version": "1.0.0",
+  "description": "food app",
+  "homepage": "https://github.com/Samrudhikadukar/Namaste_Food#readme",
+  "bugs": {
+    "url": "https://github.com/Samrudhikadukar/Namaste_Food/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samrudhikadukar/Namaste_Food.git"
+  },
+  "license": "ISC",
+  "author": "samrudhi kadukar",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jtest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
