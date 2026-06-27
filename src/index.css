@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+.logo{
+    width: 150px;
+}
+.logo_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Nav_items > ul{
+display: flex;
+list-style-type: none;
+font-size: 24px;
+}
+.Nav_items > ul > li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.rescard{
+    width: 220px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.restroimg{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.rescontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px;
+
+}
+
+.filter_btn{
+    margin: 10px;
+    cursor: pointer;
+}
